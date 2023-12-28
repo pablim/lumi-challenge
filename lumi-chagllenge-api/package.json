@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pdfjs-dist": "^4.0.269",
+    "pg": "^8.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prod": "NODE_ENV=production node index.js",
+    "test": "DATABASE_URL=postgresql://postgres:123@localhost:5432/lumi_challenge?schema=public vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablim/instruct-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablim/instruct-proj/issues"
+  },
+  "homepage": "https://github.com/pablim/instruct-proj#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "prisma": "^5.7.1",
+    "vitest": "^1.1.0"
+  }
+}
