@@ -2,7 +2,7 @@
 
 ### Postgres 
 
-Criar um banco de dados com o nome **lumi_challenge**
+- Criar um banco de dados com o nome **lumi_challenge**
 
 ### Backend 
 
@@ -20,6 +20,9 @@ Criar um banco de dados com o nome **lumi_challenge**
 Execute: 
     - `npm install` (instala as dependências do projeto)
     - `npm run start` (inicia a aplicação)
+
+#### Obs: 
+- os arquivos .env foram enviados juntos com o código para facilitar os testes
 
 
 # Utilização
